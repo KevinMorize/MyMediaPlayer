@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>MyMediaPlayer</title>
+    <link href="assets/css/style.css" rel="stylesheet">
+  </head>
+  <body>
+    <div id="title">
+    <h1>MyMediaPlayer<img src="media/ico/icoTitle.png" alt="ico title" class="icotitle"></h1>
+    </div>
+
+    <main>
+      <section>
+        <video class="clip">
+            <source src="media/mediaTest.mp4" type="video/mp4"> 
+        </video>    
+
+          <div class="controls">
+                  <button class="play"><img src="media/ico/icoPlay.png" class="icoPlay"></button> 
+                  <button class="stop"><img src="media/ico/icoStop.png"></button>
+                  <button class="rwd"><img src="media/ico/icoBack.png"></button>
+                  <input class="seekslider" type="range" min="0" max="100" value="0" step="1">
+                  <div class="time">00:00/04:26</div>
+                  <button class="sound"><img src="media/ico/icoFull.png" class="icoSound"><input class="soundslider" type="range" min="0" max="100" value="100" step="1"></button>         
+                  <button class="full"><img src="media/ico/icoScreen.png"></button>
+          </div> 
+       
+      </section>
+    </main>
+
+  <script src="assets/js/index.js"></script>
+  
+  </body>
+</html>
