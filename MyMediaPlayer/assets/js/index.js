@@ -87,6 +87,8 @@ clip.ontimeupdate = function (){
 //sound
 soundBtn.onmouseover = function(){
     soundSlider.style.display = "block";
+     $('soundSlider').fadeOut();
+     $('soundSlider').fadeIn();
 }
 
 soundBtn.onmouseleave = function(){
